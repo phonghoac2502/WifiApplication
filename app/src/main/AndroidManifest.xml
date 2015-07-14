@@ -4,6 +4,8 @@
 
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
@@ -20,11 +22,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="khang.android.wifi.AndroidDatabaseManager"
-            android:theme="@style/Theme.AppCompat.Light" />
-        <activity
-            android:name=".getActivity"
-            android:label="@string/title_activity_get" >
+            android:name=".Detail"
+            android:label="@string/title_activity_detail" >
         </activity>
     </application>
 
